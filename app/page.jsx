@@ -58,7 +58,7 @@ export default function Home() {
               <span className="hidden sm:block">Max 5 Docs · 20MB</span>
               <span className="hidden sm:block">100% Private</span>
             </div>
-            <span className="text-[9px] text-zinc-800 font-bold tracking-widest uppercase">MultiDiff v1.0</span>
+            <span className="text-[9px] text-zinc-800 font-bold tracking-widest uppercase">DocxLens v1.0</span>
           </footer>
         </div>
       ) : (

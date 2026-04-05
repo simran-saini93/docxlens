@@ -12,7 +12,7 @@ export default class ErrorBoundary extends Component {
   }
 
   componentDidCatch(error, info) {
-    console.error('[MultiDiff] Uncaught error:', error, info)
+    console.error('[DocxLens] Uncaught error:', error, info)
   }
 
   render() {
