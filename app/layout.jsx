@@ -1,12 +1,12 @@
 import './globals.css'
 
-const BASE_URL = 'https://multidiff.app'
+const BASE_URL = 'https://docxlens.com'
 
 export const metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default:  'MultiDiff — Compare Documents Side by Side | Free Online Diff Tool',
-    template: '%s | MultiDiff',
+    default:  'DocxLens — Compare Documents Side by Side | Free Online Diff Tool',
+    template: '%s | DocxLens',
   },
   description:
     'Free online tool to compare up to 5 documents simultaneously. Supports PDF, Word, Excel, CSV, JSON and code files. 100% private — files never leave your browser.',
@@ -17,29 +17,29 @@ export const metadata = {
     'file diff tool', 'compare contracts online', 'legal document comparison',
     'compare two PDFs', 'text diff online', 'online diff checker',
   ],
-  authors:  [{ name: 'MultiDiff' }],
-  creator:  'MultiDiff',
+  authors:  [{ name: 'DocxLens' }],
+  creator:  'DocxLens',
   alternates: {
     canonical: BASE_URL,
   },
   openGraph: {
     type:        'website',
     url:          BASE_URL,
-    title:       'MultiDiff — Compare Up to 5 Documents Side by Side',
+    title:       'DocxLens — Compare Up to 5 Documents Side by Side',
     description: 'Free, private, browser-based document comparison. PDF, Word, Excel, JSON and code. No signup required.',
-    siteName:    'MultiDiff',
+    siteName:    'DocxLens',
     images: [
       {
         url:    '/og-image.png',
         width:   1200,
         height:  630,
-        alt:    'MultiDiff — Compare Documents Side by Side',
+        alt:    'DocxLens — Compare Documents Side by Side',
       },
     ],
   },
   twitter: {
     card:        'summary_large_image',
-    title:       'MultiDiff — Free Multi-Document Comparison Tool',
+    title:       'DocxLens — Free Multi-Document Comparison Tool',
     description: 'Compare up to 5 documents simultaneously. PDF, Word, Excel, JSON. 100% client-side.',
     images:      ['/og-image.png'],
   },
@@ -64,7 +64,7 @@ const jsonLd = {
     {
       '@type':            'WebApplication',
       '@id':              `${BASE_URL}/#webapp`,
-      name:               'MultiDiff',
+      name:               'DocxLens',
       url:                BASE_URL,
       description:        'Free online document comparison tool. Compare up to 5 PDFs, Word, Excel, CSV, JSON or code files side by side. 100% private — files never leave your browser.',
       applicationCategory:'UtilitiesApplication',
@@ -92,10 +92,10 @@ const jsonLd = {
       mainEntity: [
         {
           '@type': 'Question',
-          name:    'Is MultiDiff free to use?',
+          name:    'Is DocxLens free to use?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text:    'Yes, MultiDiff is completely free with no signup required. All document processing happens in your browser.',
+            text:    'Yes, DocxLens is completely free with no signup required. All document processing happens in your browser.',
           },
         },
         {
@@ -103,7 +103,7 @@ const jsonLd = {
           name:    'Are my documents safe and private?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text:    'Yes. MultiDiff is 100% client-side. Your files are never uploaded to any server — all comparison happens locally in your browser.',
+            text:    'Yes. DocxLens is 100% client-side. Your files are never uploaded to any server — all comparison happens locally in your browser.',
           },
         },
         {
@@ -111,7 +111,7 @@ const jsonLd = {
           name:    'What file types can I compare?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text:    'MultiDiff supports PDF (including scanned PDFs via OCR), Word (.docx, .doc), Excel (.xlsx, .xls), CSV, JSON, and code files (JS, Python, Go, Java, and more).',
+            text:    'DocxLens supports PDF (including scanned PDFs via OCR), Word (.docx, .doc), Excel (.xlsx, .xls), CSV, JSON, and code files (JS, Python, Go, Java, and more).',
           },
         },
         {
@@ -127,7 +127,7 @@ const jsonLd = {
           name:    'Can I compare scanned PDFs?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text:    'Yes. MultiDiff automatically detects scanned PDFs and uses OCR (Optical Character Recognition) to extract text before comparing.',
+            text:    'Yes. DocxLens automatically detects scanned PDFs and uses OCR (Optical Character Recognition) to extract text before comparing.',
           },
         },
       ],
@@ -135,7 +135,7 @@ const jsonLd = {
     {
       '@type':     'Organization',
       '@id':       `${BASE_URL}/#org`,
-      name:        'MultiDiff',
+      name:        'DocxLens',
       url:          BASE_URL,
       logo: {
         '@type': 'ImageObject',
